@@ -152,8 +152,9 @@ Package.onTest(function (api) {
 
   api.use('iron:router'); // Needed so we can un-configure the router
   api.use('mizzao:partitioner');
-  api.use("mizzao:turkserver");
   api.use('mizzao:timesync');
+
+  api.use("turkserver:turkserver"); // This package!
 
   api.addFiles("tests/display_fix.css");
 
