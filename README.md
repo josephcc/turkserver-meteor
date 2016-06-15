@@ -61,4 +61,4 @@ Note that this paper doesn't refer to the latest version of the system, but it
 
 ## Developing and Contributing
 
-See [more information about contributing](contributing.md).
+See [more information about contributing](Contributing.md).
