@@ -241,7 +241,11 @@ class Assignment {
    * @returns {Number} The current bonus payment.
    */
   getPayment() {
-    return Assignments.findOne(this.asstId).bonusPayment;
+    let payment = Assignments.findOne(this.asstId).bonusPayment;
+    if (payment === undefined) {
+       return 0.0;
+    }
+    return payment;
   }
 
   /**
